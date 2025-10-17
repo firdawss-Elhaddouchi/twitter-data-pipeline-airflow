@@ -1,0 +1,13 @@
+[2025-10-17T21:19:14.547+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-17T21:19:14.548+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-17T21:19:14.550+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-17T21:19:14.552+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-17T21:19:14.611+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-17T21:19:14.784+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/twitter_dag.py     33  0.06s             0           0
+================================================================================

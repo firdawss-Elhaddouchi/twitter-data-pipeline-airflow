@@ -1,0 +1,192 @@
+[2025-10-17T21:19:14.766+0000] {processor.py:161} INFO - Started process (PID=33) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:19:14.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:19:14.771+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:19:14.770+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:19:14.820+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:19:14.812+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_dag.py", line 4, in <module>
+    from etl_twitter import extract_data, transform_data, load_data
+ModuleNotFoundError: No module named 'etl_twitter'
+[2025-10-17T21:19:14.822+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:19:14.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.098 seconds
+[2025-10-17T21:19:45.153+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:19:45.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:19:45.160+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:19:45.159+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:19:45.205+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:19:45.197+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_dag.py", line 4, in <module>
+    from etl_twitter import extract_data, transform_data, load_data
+ModuleNotFoundError: No module named 'etl_twitter'
+[2025-10-17T21:19:45.208+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:19:45.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.122 seconds
+[2025-10-17T21:20:15.600+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:20:15.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:20:15.608+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:20:15.607+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:20:15.670+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:20:15.657+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_dag.py", line 4, in <module>
+    from etl_twitter import extract_data, transform_data, load_data
+ModuleNotFoundError: No module named 'etl_twitter'
+[2025-10-17T21:20:15.675+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:20:15.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.169 seconds
+[2025-10-17T21:20:45.983+0000] {processor.py:161} INFO - Started process (PID=36) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:20:45.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:20:45.989+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:20:45.988+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:20:46.022+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:20:46.016+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_dag.py", line 4, in <module>
+    from etl_twitter import extract_data, transform_data, load_data
+ModuleNotFoundError: No module named 'etl_twitter'
+[2025-10-17T21:20:46.024+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:20:46.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.097 seconds
+[2025-10-17T21:21:16.483+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:16.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:21:16.493+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:16.492+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:16.542+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:16.532+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_dag.py", line 4, in <module>
+    from etl_twitter import extract_data, transform_data, load_data
+ModuleNotFoundError: No module named 'etl_twitter'
+[2025-10-17T21:21:16.546+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:16.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.155 seconds
+[2025-10-17T21:21:42.803+0000] {processor.py:161} INFO - Started process (PID=38) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:42.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:21:42.814+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:42.813+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:42.859+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:42.856+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_dag.py", line 4
+    from dags\twitter_etl.py import extract_data, transform_data, load_data
+              ^
+SyntaxError: unexpected character after line continuation character
+[2025-10-17T21:21:42.860+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:42.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.126 seconds
+[2025-10-17T21:21:44.966+0000] {processor.py:161} INFO - Started process (PID=39) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:44.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:21:44.974+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:44.973+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:45.006+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:45.005+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/twitter_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/twitter_dag.py", line 4
+    from dags\twitter_etl import extract_data, transform_data, load_data
+              ^
+SyntaxError: unexpected character after line continuation character
+[2025-10-17T21:21:45.008+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:45.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.087 seconds
+[2025-10-17T21:21:48.097+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:48.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:21:48.105+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:48.104+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:50.210+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:21:50.505+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:50.504+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:twitter_etl_pipeline
+[2025-10-17T21:21:50.523+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:50.523+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:twitter_etl_pipeline
+[2025-10-17T21:21:50.535+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:50.535+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:twitter_etl_pipeline
+[2025-10-17T21:21:50.536+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:50.536+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:21:50.550+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:50.550+0000] {dag.py:3118} INFO - Creating ORM DAG for twitter_etl_pipeline
+[2025-10-17T21:21:50.563+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:21:50.563+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-17T21:21:50.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 2.512 seconds
+[2025-10-17T21:22:20.986+0000] {processor.py:161} INFO - Started process (PID=42) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:22:20.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:22:20.992+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:22:20.992+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:22:21.827+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:22:21.886+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:22:21.885+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:22:21.932+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:22:21.932+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-17T21:22:21.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 1.020 seconds
+[2025-10-17T21:22:52.331+0000] {processor.py:161} INFO - Started process (PID=44) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:22:52.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:22:52.336+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:22:52.336+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:22:53.106+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:22:53.147+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:22:53.146+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:22:53.180+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:22:53.179+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-17T21:22:53.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.898 seconds
+[2025-10-17T21:23:23.674+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:23:23.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:23:23.681+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:23:23.680+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:23:24.404+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:23:24.446+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:23:24.445+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:23:24.479+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:23:24.478+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-17T21:23:24.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.873 seconds
+[2025-10-17T21:23:55.030+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:23:55.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:23:55.036+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:23:55.036+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:23:55.791+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:23:55.830+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:23:55.830+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:23:55.857+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:23:55.856+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-17T21:23:55.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.886 seconds
+[2025-10-17T21:24:26.500+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:24:26.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:24:26.508+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:24:26.507+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:24:27.226+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:24:27.261+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:24:27.261+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:24:27.287+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:24:27.286+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-16 00:00:00+00:00, run_after=2025-10-17 00:00:00+00:00
+[2025-10-17T21:24:27.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.861 seconds
+[2025-10-17T21:24:57.780+0000] {processor.py:161} INFO - Started process (PID=56) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:24:57.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:24:57.786+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:24:57.785+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:24:58.534+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:24:58.571+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:24:58.570+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:24:58.597+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:24:58.596+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-17 00:00:00+00:00, run_after=2025-10-18 00:00:00+00:00
+[2025-10-17T21:24:58.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.888 seconds
+[2025-10-17T21:25:29.083+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:25:29.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:25:29.089+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:25:29.088+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:25:29.811+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:25:29.841+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:25:29.840+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:25:29.864+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:25:29.863+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-17 00:00:00+00:00, run_after=2025-10-18 00:00:00+00:00
+[2025-10-17T21:25:29.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.835 seconds
+[2025-10-17T21:26:00.410+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:26:00.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:26:00.417+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:26:00.416+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:26:01.150+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:26:01.187+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:26:01.187+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:26:01.217+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:26:01.217+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-17 00:00:00+00:00, run_after=2025-10-18 00:00:00+00:00
+[2025-10-17T21:26:01.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.874 seconds
+[2025-10-17T21:26:31.686+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:26:31.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:26:31.692+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:26:31.691+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:26:32.406+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:26:32.471+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:26:32.470+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:26:32.505+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:26:32.504+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-17 00:00:00+00:00, run_after=2025-10-18 00:00:00+00:00
+[2025-10-17T21:26:32.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.898 seconds
+[2025-10-17T21:27:03.031+0000] {processor.py:161} INFO - Started process (PID=64) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:27:03.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:27:03.037+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:27:03.036+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:27:03.727+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:27:03.768+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:27:03.767+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:27:03.814+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:27:03.814+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-17 00:00:00+00:00, run_after=2025-10-18 00:00:00+00:00
+[2025-10-17T21:27:03.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.834 seconds
+[2025-10-17T21:27:34.257+0000] {processor.py:161} INFO - Started process (PID=66) to work on /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:27:34.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/twitter_dag.py for tasks to queue
+[2025-10-17T21:27:34.265+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:27:34.265+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:27:34.942+0000] {processor.py:840} INFO - DAG(s) 'twitter_etl_pipeline' retrieved from /opt/airflow/dags/twitter_dag.py
+[2025-10-17T21:27:35.007+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:27:35.006+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-17T21:27:35.062+0000] {logging_mixin.py:188} INFO - [2025-10-17T21:27:35.061+0000] {dag.py:3954} INFO - Setting next_dagrun for twitter_etl_pipeline to 2025-10-17 00:00:00+00:00, run_after=2025-10-18 00:00:00+00:00
+[2025-10-17T21:27:35.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/twitter_dag.py took 0.876 seconds
