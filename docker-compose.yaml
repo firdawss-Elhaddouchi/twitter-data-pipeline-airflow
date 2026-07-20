@@ -24,6 +24,9 @@ services:
       AIRFLOW__CORE__EXECUTOR: CeleryExecutor
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
+      XQUIK_API_KEY: ${XQUIK_API_KEY:-}
+      XQUIK_LIMIT: ${XQUIK_LIMIT:-200}
+      XQUIK_QUERY: ${XQUIK_QUERY:-from:elonmusk}
     volumes:
       - ./dags:/opt/airflow/dags
       - ./data:/opt/airflow/data
@@ -40,6 +43,9 @@ services:
       AIRFLOW__CORE__EXECUTOR: CeleryExecutor
       AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
+      XQUIK_API_KEY: ${XQUIK_API_KEY:-}
+      XQUIK_LIMIT: ${XQUIK_LIMIT:-200}
+      XQUIK_QUERY: ${XQUIK_QUERY:-from:elonmusk}
     volumes:
       - ./dags:/opt/airflow/dags
       - ./data:/opt/airflow/data
